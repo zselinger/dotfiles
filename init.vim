@@ -13,6 +13,9 @@ set undodir=~/.config/nvim/undodir
 set undofile
 set incsearch
 set termguicolors
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2 
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -28,7 +31,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'flazz/vim-colorschemes'
-Plug '/home/mpaulson/personal/vim-be-good'
+Plug 'airblade/vim-rooter'
 
 call plug#end()
 
