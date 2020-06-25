@@ -3,7 +3,6 @@ syntax on
 set noshowmatch
 set relativenumber
 set noerrorbells
-set smartindent
 set nu
 set nowrap
 set smartcase
@@ -16,6 +15,9 @@ set termguicolors
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2 
+set expandtab
+set autoindent
+set smartindent
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
