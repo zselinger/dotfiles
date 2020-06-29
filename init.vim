@@ -4,6 +4,7 @@ set noshowmatch
 set relativenumber
 set noerrorbells
 set nu
+set nohlsearch
 set nowrap
 set smartcase
 set noswapfile
