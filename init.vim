@@ -53,6 +53,8 @@ let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
 nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>sw :CocSearch <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>ps :CocSearch<space>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
