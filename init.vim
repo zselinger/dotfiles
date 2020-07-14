@@ -35,6 +35,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'flazz/vim-colorschemes'
 Plug 'airblade/vim-rooter'
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
 
