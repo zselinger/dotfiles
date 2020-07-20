@@ -33,7 +33,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'flazz/vim-colorschemes'
 Plug 'airblade/vim-rooter'
 Plug 'vimwiki/vimwiki'
 
@@ -61,6 +60,7 @@ nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>id :put =strftime('%Y-%m-%d')<CR>
 
 nmap <leader>gd <Plug>(coc-definition)
 
@@ -80,4 +80,6 @@ function! s:check_back_space() abort
 endfunction
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
