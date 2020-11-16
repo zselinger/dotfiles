@@ -55,18 +55,18 @@ let g:netrw_winsize = 25
 nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>sw :CocSearch <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Leader>ps :CocSearch<space>
-nnoremap <leader>u :UndotreeShow<CR>
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
-nnoremap <leader>id :put =strftime('%Y-%m-%d')<CR>
+nnoremap <Leader>u :UndotreeShow<CR>
+nnoremap <Leader>h :wincmd h<CR>
+nnoremap <Leader>j :wincmd j<CR>
+nnoremap <Leader>k :wincmd k<CR>
+nnoremap <Leader>l :wincmd l<CR>
+nnoremap <Leader>id :put =strftime('%Y-%m-%d')<CR>
 
-nmap <leader>gd <Plug>(coc-definition)
+nmap <Leader>gd <Plug>(coc-definition)
 
-nmap <leader>gj :diffget //3<CR>
-nmap <leader>gf :diffget //2<CR>
-nmap <leader>gs :G<CR>
+nmap <Leader>gj :diffget //3<CR>
+nmap <Leader>gf :diffget //2<CR>
+nmap <Leader>gs :G<CR>
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
