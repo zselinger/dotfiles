@@ -56,6 +56,8 @@ let g:netrw_winsize = 25
 
 let g:fzf_layout = { 'window': {'width': 0.8, 'height': 0.8}}
 
+let g:fzf_branch_actions = {'track': {'keymap': 'alt-t'}}
+
 nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>sw :CocSearch <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Leader>ps :CocSearch<space>
@@ -86,5 +88,5 @@ endfunction
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+                      \ 'syntax': 'markdown', 'ext': '.mda'}]
 
