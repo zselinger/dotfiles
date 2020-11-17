@@ -33,6 +33,7 @@ Plug 'mbbill/undotree'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'stsewd/fzf-checkout.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-rooter'
 Plug 'vimwiki/vimwiki'
@@ -53,6 +54,8 @@ let g:vrfr_rg = 'true'
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
+let g:fzf_layout = { 'window': {'width': 0.8, 'height': 0.8}}
+
 nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>sw :CocSearch <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Leader>ps :CocSearch<space>
@@ -68,6 +71,7 @@ nmap <Leader>gd <Plug>(coc-definition)
 nmap <Leader>gj :diffget //3<CR>
 nmap <Leader>gf :diffget //2<CR>
 nmap <Leader>gs :G<CR>
+nmap <Leader>gc :GCheckout<CR>
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
