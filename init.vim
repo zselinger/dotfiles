@@ -19,6 +19,7 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set smartindent
+set clipboard=unnamedplus
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
