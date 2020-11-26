@@ -20,6 +20,8 @@ set expandtab
 set autoindent
 set smartindent
 set clipboard=unnamedplus
+set timeoutlen=1000 
+set ttimeoutlen=0
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
