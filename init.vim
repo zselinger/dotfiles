@@ -39,6 +39,7 @@ Plug 'stsewd/fzf-checkout.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-rooter'
 Plug 'vimwiki/vimwiki'
+Plug 'wellle/targets.vim'
 
 call plug#end()
 
