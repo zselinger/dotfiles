@@ -77,6 +77,8 @@ nmap <Leader>gf :diffget //2<CR>
 nmap <Leader>gs :G<CR>
 nmap <Leader>gc :GCheckout<CR>
 
+imap jj <Esc>
+
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
