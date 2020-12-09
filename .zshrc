@@ -120,3 +120,8 @@ export FZF_DEFAULT_COMMAND='rg --files -j1'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS='--height 80% --reverse --preview "cat {}"'
 
+# taskwarrior bindings
+alias taf='task add project:Family'
+alias taw='task add project:Work'
+alias tai='task add project:Inbox'
+alias tab='task add project:Birthdays recur:yearly'

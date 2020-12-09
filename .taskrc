@@ -1,0 +1,8 @@
+data.location=~/.task
+
+taskd.certificate=~/.task/private.certificate.pem
+taskd.key=~/.task/private.key.pem
+taskd.ca=~/.task/ca.crt
+taskd.server=inthe.am:53589
+taskd.credentials=inthe_am/zselinge/73b89374-8fe3-4fff-844c-8ced7177fa61
+taskd.trust=ignore hostname
