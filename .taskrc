@@ -6,3 +6,6 @@ taskd.ca=~/.task/ca.crt
 taskd.server=inthe.am:53589
 taskd.credentials=inthe_am/zselinge/73b89374-8fe3-4fff-844c-8ced7177fa61
 taskd.trust=ignore hostname
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due,until.remaining,description
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description
+report.next.sort=due
