@@ -12,7 +12,6 @@ set nobackup
 set undodir=~/.config/nvim/undodir
 set undofile
 set incsearch
-set termguicolors
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2 
@@ -21,29 +20,33 @@ set smartindent
 set clipboard=unnamedplus
 set timeoutlen=1000 
 set ttimeoutlen=0
+set termguicolors
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+let g:palenight_terminal_italics=1
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'joshdick/onedark.vim'
+Plug 'drewtempelmeyer/palenight.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
-Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-rooter'
 Plug 'vimwiki/vimwiki'
 Plug 'wellle/targets.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-colorscheme onedark
 set background=dark
+colorscheme palenight
 
 let mapleader = " "
 
