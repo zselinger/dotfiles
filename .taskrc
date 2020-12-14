@@ -1,5 +1,7 @@
 data.location=~/.task
 
+include ~/.task/dark-violets.theme
+
 taskd.certificate=~/.task/private.certificate.pem
 taskd.key=~/.task/private.key.pem
 taskd.ca=~/.task/ca.crt
@@ -10,3 +12,4 @@ report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,s
 report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description
 report.next.sort=due
 report.next.dateformat=Y-M-D H:N
+
