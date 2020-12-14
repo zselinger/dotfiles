@@ -63,7 +63,8 @@ let g:fzf_layout = { 'window': {'width': 0.8, 'height': 0.8}}
 
 let g:fzf_branch_actions = {'track': {'keymap': 'alt-t'}}
 
-nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>f :GFiles<CR>
+nnoremap <Leader>F :Files<CR>
 nnoremap <Leader>sw :CocSearch <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Leader>ps :CocSearch<space>
 nnoremap <Leader>u :UndotreeShow<CR>
