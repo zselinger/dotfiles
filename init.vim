@@ -96,5 +96,5 @@ endfunction
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.mda'}]
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
