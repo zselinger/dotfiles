@@ -1,4 +1,9 @@
 {
   "prettier.singleQuote": true,
-  "eslint.options": {"configFile": "~/dotfiles/.eslintrc.json"}
+  "prettier.trailingComma":"es5",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine":true,
+  "prettier.proseWrap":"always",
+  "eslint.options": { "configFile": "~/dotfiles/.eslintrc.json" },
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "markdown", "json", "css"]
 }
