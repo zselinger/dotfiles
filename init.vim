@@ -75,6 +75,9 @@ nnoremap <Leader>l :wincmd l<CR>
 nnoremap <Leader>id :put =strftime('%Y-%m-%d')<CR>
 
 nmap <Leader>gd <Plug>(coc-definition)
+nmap <Leader>gt <Plug>(coc-type-definition)
+nmap <Leader>gr <Plug>(coc-references)
+nmap <Leader>gi <Plug>(coc-implementation)
 
 nmap <Leader>gj :diffget //3<CR>
 nmap <Leader>gf :diffget //2<CR>
