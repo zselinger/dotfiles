@@ -2,7 +2,7 @@
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.relativenumber = true
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.timeoutlen = 300
 
 -- general
