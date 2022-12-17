@@ -89,8 +89,6 @@ formatters.setup {
 -- -- Additional Plugins <https://www.lunarvim.org/docs/plugins#user-plugins>
 lvim.plugins = {
   { "rmehri01/onenord.nvim" },
-  { "pantharshit00/vim-prisma" },
-  { "p00f/nvim-ts-rainbow" },
   { "max397574/better-escape.nvim", config = function()
     require("better_escape").setup {
       mapping = { "jj" }, -- a table with mappings to use
@@ -99,27 +97,6 @@ lvim.plugins = {
       keys = "<Esc>",
     }
   end },
-  {
-    "romgrk/nvim-treesitter-context",
-    config = function()
-      require("treesitter-context").setup {
-        enable = true, -- Enable this plugin (Can be enabled/disabled later via commands)
-        throttle = true, -- Throttles plugin updates (may improve performance)
-        max_lines = 0, -- How many lines the window should span. Values <= 0 mean no limit.
-        patterns = { -- Match patterns for TS nodes. These get wrapped to match at word boundaries.
-          -- For all filetypes
-          -- Note that setting an entry here replaces all other patterns for this entry.
-          -- By setting the 'default' entry below, you can control which nodes you want to
-          -- appear in the context window.
-          default = {
-            'class',
-            'function',
-            'method',
-          },
-        },
-      }
-    end
-  },
 }
 
 -- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>
