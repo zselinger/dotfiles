@@ -9,7 +9,6 @@ vim.opt.timeoutlen = 300
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.builtin.treesitter.rainbow.enable = true
-lvim.builtin.dap.active = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
