@@ -123,7 +123,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS='--height 80% --reverse --preview "cat {}"'
 
 # fix wsl2 connectivity issues
-wsl.exe -d wsl-vpnkit service wsl-vpnkit start
+# wsl.exe -d wsl-vpnkit service wsl-vpnkit start
 
 . ~/.profile
 
