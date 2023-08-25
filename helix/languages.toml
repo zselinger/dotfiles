@@ -12,10 +12,10 @@ formatter = { command = 'prettier', args = ["--parser", "css"] }
 
 [[language]]
 name = "javascript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+formatter = { command = 'prettier', args = ["--parser", "typescript"], config= {"autoSearchPaths" = true, "diagnosticMode" = "workspace"} }
 auto-format = true
 
 [[language]]
 name = "typescript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+formatter = { command = 'prettier', args = ["--parser", "typescript"], config= {"autoSearchPaths" = true, "diagnosticMode" = "workspace"} }
 auto-format = true
