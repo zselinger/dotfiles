@@ -122,7 +122,7 @@ export FZF_DEFAULT_OPTS='--height 80% --reverse --preview "cat {}"'
 
 export COLORTERM="truecolor"
 # fix wsl2 connectivity issues
-wsl.exe -d wsl-vpnkit service wsl-vpnkit start
+# wsl.exe -d wsl-vpnkit service wsl-vpnkit start
 
 . ~/.profile
 
