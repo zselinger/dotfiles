@@ -82,7 +82,7 @@ DISABLE_LS_COLORS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 # plugins+=(zsh-nvm)
-plugins+=(ripgrep)
+#plugins+=(ripgrep)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,6 +113,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh")")
 #
 
+alias lg="lazygit"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -124,6 +126,7 @@ export COLORTERM="truecolor"
 # fix wsl2 connectivity issues
 # wsl.exe -d wsl-vpnkit service wsl-vpnkit start
 
+wsl.exe -d wsl-vpnkit service wsl-vpnkit start >/dev/null 2>&1
 . ~/.profile
 
 # Generated for envman. Do not edit.
